@@ -4,6 +4,10 @@
   padding-bottom: 20px;
 }
 
+.pokemon-item > div:first-child {
+  cursor: pointer;
+}
+
 .pokemon-item div img {
   display: block;
   margin: auto;
