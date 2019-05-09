@@ -1,0 +1,32 @@
+.pokemon-details {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-details > div {
+  border: 1px solid rgb(157, 201, 241);
+  padding: 0 30px;
+  height: 520px;
+  position: fixed;
+}
+
+.pokemon-details > div > img {
+  display: block;
+  margin: auto;
+  height: 200px;
+}
+
+.pokemon-details > div > h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pokemon-details td {
+  border: 1px solid rgb(157, 201, 241);
+}
+
+@media (max-width: 576px) {
+  .pokemon-details > div {
+    height: 600px;
+  }
+}

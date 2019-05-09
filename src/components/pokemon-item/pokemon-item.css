@@ -1,0 +1,16 @@
+.pokemon-item {
+  border: 1px solid rgb(157, 201, 241);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.pokemon-item div img {
+  display: block;
+  margin: auto;
+}
+
+.pokemon-item > div > p {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+}
